@@ -1,0 +1,44 @@
+    1  git config --global user.nane "Yulia Ponomarenko"
+    2  git config --global user.email iulialyska4@gmail.com
+    3  git clone https://github.com/YuliaPonomarenko1426/HW_10.git
+    4  cd /c/Users/user/Desktop/HW_10
+    5  cd HW_10
+    6  touch text_ignore.txt
+    7  nano.gitinore
+    8  nano .gitignore
+    9  git add
+   10  git add .
+   11  git status
+   12  git commit -m "Додано text_ignore.txt до .ignore"
+   13  touch main_test.txt
+   14  ls
+   15  git add .
+   16  git commit 
+   17  git log
+   18  git chekout -b develop
+   19  git chekout -b develop
+   20  git checkout -b develop
+   21  touch develop_test.txt
+   22  git add .
+   23  git commit -d "Додано порожній файл develop_test.txt"
+   24  git commit -m "Додано порожній файл develop_test.txt"
+   25  nano develop_test.txt
+   26  git status 
+   27  git add .
+   28  git add develop_test.txt
+   29  git commit -m "Додано рядок 'just a small change' у develop_test.txt"
+   30  ls
+   31  rm 'develop_test.txt'
+   32  git add develop_test.txt
+   33  git status
+   34  git add divelop_test.txt
+   35  git add develop_test.txt
+   36  ls -la
+   37  mv 'develop_test.txt ' develop_test.txt
+   38  ls -la
+   39  git add develop_test.txt
+   40  git commit -m "Додала файл develop_test.txt без пробілу в назві"
+   41  git checkout main
+   42  git merge develop
+   43  git log
+   44  history > command_list.csv
